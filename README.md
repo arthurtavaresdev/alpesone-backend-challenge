@@ -7,6 +7,7 @@ Teste para desenvolvedor back end desenvolvido para a Alpes One
 Instalação:
 
 ```sh
+cd car-search
 composer install
 php artisan migrate
 php artisan db:seed --class=CarsSeeder
