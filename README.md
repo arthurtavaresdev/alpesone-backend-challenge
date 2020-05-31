@@ -15,8 +15,12 @@ seeder com o base no mesmo, por este motivo é **MUITO** provavel que os dados a
 - PS: Realizei alguns testes com algumas outras versões deste robo, como mapeando o site inteiro em buscas detes dados. Mas não consegui otimizar o algoritmo a tempo para a entrega do projeto.
 
 
-## Framework Utilizado
-- Lumen (Laravel)
+## Tecnologias Utilizadas
+- PHP - Versão 7.4.0
+- [Lumen (Laravel)](https://github.com/laravel/lumen)
+- [Guzzle](https://github.com/guzzle/guzzle)
+- [Symfony DomCrawler Component](https://github.com/symfony/dom-crawler)
+- Postman/Insomminia
 
 ## Instação/Execução da API
 
