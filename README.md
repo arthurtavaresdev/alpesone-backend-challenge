@@ -9,6 +9,12 @@ Teste para desenvolvedor back end desenvolvido para a Alpes One
 Neste teste, fiz um pequeno crawler no [site - semininovos.com.br](https://seminovos.com.br/), o qual busco, os dados dos produtos contidos na home, e monto um
 seeder com o base no mesmo, por este motivo é **MUITO** provavel que os dados apresentados na documentação, estejam diferentes ao executar o resultado deste desafio.
 
+### Crawler
+- O Crawler segue a seguinte logica,em sua primeira execução, ele captura os links dos produtos que estão na home, os separo em um array. Após isto, especiono cada produto, em buscas dos rich snippets, seguindo as diretrizes determinadas pelo https://schema.org/. Retorno um multidimensonal array com todos os dados dos produtos, e faço a inserção do mesmo no banco de dados.
+
+- PS: Realizei alguns testes com algumas outras versões deste robo, como mapeando o site inteiro em buscas detes dados. Mas não consegui otimizar o algoritmo a tempo para a entrega do projeto.
+
+
 ## Framework Utilizado
 - Lumen (Laravel)
 
