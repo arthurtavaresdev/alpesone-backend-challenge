@@ -45,4 +45,4 @@ php -S localhost:8000 -t public
 ```
 
 ## [Documentação](https://documenter.getpostman.com/view/5518072/SztEZRwh?version=latest#1c7458ee-0869-4907-8c63-55168e6b872c)
-## [Video Apoio] (https://drive.google.com/file/d/1GAr-wbGipAV0-GOmRe3-o7TuJorWROIF/view)
+## [Video Apoio](https://drive.google.com/file/d/1GAr-wbGipAV0-GOmRe3-o7TuJorWROIF/view)
