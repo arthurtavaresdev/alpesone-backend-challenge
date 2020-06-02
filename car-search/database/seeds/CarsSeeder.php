@@ -49,7 +49,7 @@ class CarsSeeder extends Seeder
                     'priceCurrency' => $result->filter('[itemprop="priceCurrency"]')->extract(['content'])[0],
                     'modelDate' => $result->filter('[itemprop="modelDate"]')->text(''),
                     'fuelType' => $result->filter('[itemprop="fuelType"]')->text(''),
-                    'doors' => $result->filter('[title="Portas"]')->text(''),
+                    'doors' => (int) $result->filter('[title="Portas"]')->text(0),
                 ];
             } catch (Exception $e) {
                 echo $e->xdebug_message;
