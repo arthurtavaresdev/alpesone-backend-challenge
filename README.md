@@ -29,11 +29,14 @@ Instalação:
 ```sh
 cd car-search
 composer install
+```
+- **Definir as credencias do banco de dados no arquivo .env**
+
+```sh
 php artisan migrate
 php artisan db:seed --class=CarsSeeder
 ```
 
-- **Definir as credencias do banco de dados no arquivo .env**
 
 Execução:
 
